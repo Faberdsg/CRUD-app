@@ -1,0 +1,13 @@
+.header {
+	max-width: 1024px;
+	margin-inline: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 25px 20px 50px;
+}
+
+.title {
+	font-size: 24px;
+	font-weight: bold;
+}
