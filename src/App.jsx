@@ -10,12 +10,8 @@ const baseUrl =
 	'https://users-crud-api-production-9c59.up.railway.app/api/v1/users';
 
 function App() {
-	const [
-		{ results: users },
-		loading,
-		error,
-		{ getAll, create, update, remove },
-	] = useCrud(baseUrl);
+	const [users, loading, error, { getAll, create, update, remove }] =
+		useCrud(baseUrl);
 
 	const { isOpen, openModal, closeModal, modalContent, setModalContent } =
 		useModal();
